@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url(circuits.jpg);
+    background-size:100% ;
+}
+.counter{
+    text-align: center;
+    padding: 40px 20px;
+    border: 8px solid white;
+    color: white;
+    border-radius: 15px;
+    
+}
+#nume{
+     font-family: 'Roboto', sans-serif;;
+     font-size: 22px;
+     
+}
+#number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+button{
+    border-radius: 0;
+    background-color: thistle;
+    border: 2px solid white;
+}
+button:hover{
+    background-color: rgb(142, 168, 89);
+    color: white;
+    border-color:rgb(142, 168, 89) ;
+    
+}
